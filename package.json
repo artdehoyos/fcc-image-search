@@ -1,0 +1,22 @@
+{
+  "name": "fcc-image-search",
+  "version": "1.0.0",
+  "description": "An interface to the Google Custom Search API. Returns image links and metadata as JSON.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artdehoyos/fcc-image-search.git"
+  },
+  "author": "Art deHoyos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdehoyos/fcc-image-search/issues"
+  },
+  "homepage": "https://github.com/artdehoyos/fcc-image-search#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
