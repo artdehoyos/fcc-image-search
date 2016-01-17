@@ -1,0 +1,20 @@
+body{
+    background-color: #333340;
+    color: ghostwhite;
+    font-family: sans-serif;
+}
+
+h1, h2, h3{
+    color: limegreen;
+}
+
+code{
+    display: inline-block;
+    margin-left: 2rem;
+    color: salmon;
+}
+
+#container{
+    max-width: 960px;
+    margin: 0 auto;
+}

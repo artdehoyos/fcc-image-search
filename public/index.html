@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>fcc-image-search</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="container">
+<h1 id="fcc-image-search">fcc-image-search</h1>
+<p>An interface to the Google Custom Search API. Returns image links and metadata as JSON.</p>
+<h2 id="example-uses">Example uses</h2>
+<h3 id="search">Search</h3>
+<p>Pass your request to the /search endpoint to search. You may add an offset to get further results. Each page is an offset of a multiple of 10.</p>
+<pre><code>https://cryptic-castle-1280.herokuapp.com/search/funny%20cats
+https://cryptic-castle-1280.herokuapp.com/search/tacos?offset=10</code></pre>
+<h3 id="view-recent-searches">View recent searches</h3>
+<p>You may view this API's recent searches by calling the /latest endpoint</p>
+<pre><code>https://cryptic-castle-1280.herokuapp.com/latest</code></pre>
+</div>
+</body>
+</html>
